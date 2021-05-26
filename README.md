@@ -9,7 +9,7 @@ This are important features from each paper that are implemented in this stylega
  - Pixelnorm
  - Equalised Learning Rate
  - Gradient Penalty Wasserstein Loss
- - Exponential moving average of generator 
+ - (todo) Exponential moving average of generator 
 
 ### StyleGAN 1 features
  - Mapping and sysnthesis networks
@@ -21,5 +21,5 @@ This are important features from each paper that are implemented in this stylega
  - Skip connections in synthesis network
  - Residual connections in discriminator network
  - Weight demodulation based on stylevector
- - path length regularisation
- - lazy regularisation
+ - (todo) Path length regularisation
+ - (todo) Lazy regularisation
