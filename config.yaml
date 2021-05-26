@@ -1,8 +1,11 @@
-dataset_path: '/Users/michielbraat/Documents/Programming/flowers_dataset/'
-image_size: 64
-batch_size: 8
+dataset_path: '/content/drive/MyDrive/thumbnails128x128/*/*'
+image_size: 32
+batch_size: 16
 z_dim: 512
-lr_generator: 0.0003
-lr_discriminator: 0.0003
+lr_generator: 0.001
+lr_discriminator: 0.001
 epochs: 10
-information_steps: 5
+information_steps: 100
+save_steps: 1000
+discriminator_path: '/content/drive/MyDrive/Styleganmodel/discriminator_step_21.pt'
+generator_path: '/content/drive/MyDrive/Styleganmodel/generator_step_21.pt'
