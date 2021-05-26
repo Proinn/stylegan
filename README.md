@@ -1,22 +1,25 @@
 # stylegan
 own implementation of stylegan
 
-## ProGAN features
- x Minibatch Norm
- x Pixelnorm
- x Equalised Learning Rate
- x Gradient Penalty Wasserstein Loss
+## Implementen Features
+This are important features from each paper that are implemented in this stylegan implementation
+
+### ProGAN features
+ - Minibatch Norm
+ - Pixelnorm
+ - Equalised Learning Rate
+ - Gradient Penalty Wasserstein Loss
  - Exponential moving average of generator 
 
-## StyleGAN 1 features
- x Mapping and sysnthesis networks
- x Reduced learning rate for mapping network
- x Drifting loss
- x Stylemixing
+### StyleGAN 1 features
+ - Mapping and sysnthesis networks
+ - Reduced learning rate for mapping network
+ - Drifting loss
+ - Stylemixing
 
-## StyleGAN 2 features
- x Skip connections in synthesis network
- x Residual connections in discriminator network
- x Weight demodulation based on stylevector
+### StyleGAN 2 features
+ - Skip connections in synthesis network
+ - Residual connections in discriminator network
+ - Weight demodulation based on stylevector
  - path length regularisation
  - lazy regularisation
