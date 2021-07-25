@@ -1,5 +1,5 @@
 # stylegan
-own implementation of stylegan
+Own implementation of stylegan to study it
 
 ## Implementen Features
 This are important features from each paper that are implemented in this stylegan implementation
